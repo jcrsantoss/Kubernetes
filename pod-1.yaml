@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-1
+spec:
+  containers:
+    - name: container-pod-1
+      image: nginx:1.19.2
+      ports:
+      - containerPort: 80
+
+# Então eu vou criar um pod utilizando a imagem do nginx
+# A partir daí eu posso e devo explicitar qual imagem eu quero utilizar para basear o container que será criado dentro desse pod.
