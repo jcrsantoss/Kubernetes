@@ -16,10 +16,15 @@ Autocorreção O Kubernetes reinicia os contêineres que falham, substitui os co
 
 Gerenciamento de configuração e de segredos O Kubernetes permite armazenar e gerenciar informações confidenciais, como senhas, tokens OAuth e chaves SSH. Você pode implantar e atualizar segredos e configuração de aplicações sem reconstruir suas imagens de contêiner e sem expor segredos em sua pilha de configuração
 
+```
 apiVersion - Qual a versão de API do objeto que será usado no Kubernetes para criar esse objeto.
 
 kind - Qual tipo de objeto pretende criar.
 
 metadata - Dados que ajudam a identificar de forma única o objeto, incluindo uma string nome, UID e um namespace.
 
+Labels - 
+
 spec - Que estado deseja para o objeto.
+
+
