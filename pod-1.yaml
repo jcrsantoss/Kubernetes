@@ -11,3 +11,4 @@ spec:
 
 # Então eu vou criar um pod utilizando a imagem do nginx
 # A partir daí eu posso e devo explicitar qual imagem eu quero utilizar para basear o container que será criado dentro desse pod.
+#Primeiro Pod Criado
