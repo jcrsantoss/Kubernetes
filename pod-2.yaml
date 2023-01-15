@@ -10,4 +10,4 @@ spec:
       image: nginx:1.19.2
       ports:
       - containerPort: 80
-      #criação do segundo pod
+      #Criação do segundo pod
