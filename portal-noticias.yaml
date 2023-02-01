@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name: portal-noticias
 spec:
+# TEG
   containers:
     - name: portal-noticias-container
       image: aluracursos/portal-noticias:1
